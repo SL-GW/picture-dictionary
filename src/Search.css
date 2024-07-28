@@ -1,3 +1,20 @@
 .Search {
   text-align: center;
 }
+
+.ImageResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.ImageResult img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ImageResult {
+  text-align: center;
+}
