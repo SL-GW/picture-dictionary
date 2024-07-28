@@ -1,12 +1,28 @@
 .App {
+  color: #283739;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
-  color: #283739;
+  font-weight: 400;
 }
 
 .App h1 {
-  text-align: center;
   font-size: 60px;
+  text-align: center;
+}
+
+.App h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.App h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
 }

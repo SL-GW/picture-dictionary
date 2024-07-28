@@ -27,8 +27,13 @@ export default function Search() {
   return (
     <div className="Search">
       <form onSubmit={handleSubmit}>
-        <input type="search" placeholder="Enter word" onChange={updateWord} />
-        <input type="submit" value="Search" />
+        <input
+          className="SearchInput"
+          type="search"
+          placeholder="Enter word"
+          onChange={updateWord}
+        />
+        <input className="SearchButton" type="submit" value="Search" />
       </form>
       <div className="ImageResults">
         {images.map((image, index) => (
