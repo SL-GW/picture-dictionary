@@ -1,10 +1,19 @@
 .Search {
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin-top: 50px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px;
+  background: #fafafa;
 }
 
 .ImageResults {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
   margin-top: 20px;
 }
@@ -13,6 +22,11 @@
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+  background: #fafafa;
 }
 
 .ImageResult {
