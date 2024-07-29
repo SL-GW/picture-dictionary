@@ -35,6 +35,7 @@ export default function Search() {
         />
         <input className="SearchButton" type="submit" value="Search" />
       </form>
+      <p>For example: water, taxi, money</p>
       <div className="ImageResults">
         {images.map((image, index) => (
           <div key={index} className="ImageResult">

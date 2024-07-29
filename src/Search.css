@@ -1,5 +1,5 @@
 .Search {
-  background: #fafafa;
+  background: #f2f2f2;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -9,6 +9,11 @@
   padding: 10px 20px 10px 20px;
   text-align: center;
   width: 80%;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 0px;
 }
 
 .SearchInput {
@@ -61,7 +66,8 @@
     margin-top: 20px;
   }
 
-  .SearchButton {
-    margin-top: 10px;
+  .SearchInput {
+    width: 210px;
+    margin-right: 5px;
   }
 }
